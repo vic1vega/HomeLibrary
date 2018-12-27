@@ -1,0 +1,14 @@
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.deps.json
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.runtimeconfig.json
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.runtimeconfig.dev.json
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.dll
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.pdb
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.csprojAssemblyReference.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.csproj.CoreCompileInputs.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorAssemblyInfo.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorAssemblyInfo.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.AssemblyInfoInputs.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.AssemblyInfo.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorTargetAssemblyInfo.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.dll
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.pdb
