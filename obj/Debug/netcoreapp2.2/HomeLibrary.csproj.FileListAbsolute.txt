@@ -12,3 +12,14 @@
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorTargetAssemblyInfo.cache
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.dll
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.pdb
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.Views.dll
+/home/janek/repos/HomeLibrary/bin/Debug/netcoreapp2.2/HomeLibrary.Views.pdb
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.TagHelpers.input.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.TagHelpers.output.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorCoreGenerate.cache
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.RazorTargetAssemblyInfo.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.Views.pdb
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.csproj.CopyComplete
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs

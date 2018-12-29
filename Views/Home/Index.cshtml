@@ -1,0 +1,17 @@
+﻿@model HomeLibrary.ViewModels.HomeVM
+
+<h2>@Model.Title</h2>
+
+@foreach (var item in Model.Items)
+{
+    <div>
+        <h1>@item.Title</h1>
+        <h2>@item.Cover</h2>
+        <h2>@item.Year</h2>
+        <h2>@item.Type</h2>
+        <h2>@item.AuthorName</h2>
+        <h2>@item.RentDate</h2>
+        <h2>@item.RentName</h2>
+    </div>
+}
+
