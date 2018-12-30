@@ -16,6 +16,11 @@ namespace HomeLibrary.Models
             return _appDbContext.Items;
         }
 
+        public Item GetItemById(int id)
+        {
+            return _appDbContext.Items.FirstOrDefault(i => i.ItemId == id);
+        }
+
         public Item GetItemByAuthor(string author)
         {
             return _appDbContext.Items.FirstOrDefault(i => i.AuthorName == author);

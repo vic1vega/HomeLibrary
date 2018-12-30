@@ -1,4 +1,4 @@
-﻿@model HomeLibrary.ViewModels.HomeVM
+﻿@model HomeVM
 
 <h2>@Model.Title</h2>
 
@@ -7,7 +7,7 @@
     <!-- TO DO stylistyka frontu -->
    <div class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail">
-            <img src="@item.Cover" class="img-fluid img-thumbnail">
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@item.ItemId"><img src="@item.Cover" class="img-fluid img-thumbnail"></a>
             <div class="caption">
                 <h3 class="pull-right">@item.Title</h3>
                 <h3>

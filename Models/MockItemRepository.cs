@@ -31,6 +31,11 @@ namespace HomeLibrary.Models
             return items;
         }
 
+        public Item GetItemById(int id)
+        {
+            return items.FirstOrDefault(i => i.ItemId == id);
+        }
+
         public Item GetItemByAuthor(string author)
         {
             return items.FirstOrDefault(i => i.AuthorName == author);
