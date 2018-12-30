@@ -14,5 +14,6 @@ namespace HomeLibrary.Models
         public string AuthorName { get; set; }
         public int RentDate { get; set; }
         public string RentName { get; set; }
+        public bool IsRent { get; set; }
     }
 }
