@@ -4,6 +4,7 @@
 
 @foreach (var item in Model.Items)
 {
+    <!-- TO DO stylistyka frontu -->
    <div class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail">
             <img src="@item.Cover" class="img-fluid img-thumbnail">
@@ -13,13 +14,13 @@
                     @item.AuthorName - @item.Year
                 </h3>
                 <h4>
-                    Typ nośnika : @item.Type
+                    Typ nośnika: @item.Type
                 </h4>
                 <h4>
-                    Data wypożyczenia : @item.RentDate
+                    Data wypożyczenia: @item.RentDate
                 </h4>
                 <h4>
-                    Nazwisko wypożyczającego : @item.RentName
+                    Nazwisko wypożyczającego: @item.RentName
                 </h4>
             </div>
         </div>
