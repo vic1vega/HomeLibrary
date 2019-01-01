@@ -6,6 +6,7 @@ using HomeLibrary.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +28,7 @@ namespace HomeLibrary
         {
             services.AddDbContext<AppDbContext>
                 (options => options.UseSqlite("Data Source=HomeLibrary.db"));
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             services.AddTransient<IItemRepository, ItemRepository>();
             services.AddMvc();
         }
@@ -36,7 +38,9 @@ namespace HomeLibrary
         {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
