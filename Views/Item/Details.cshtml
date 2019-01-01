@@ -1,0 +1,24 @@
+﻿@model Item
+
+<h2>@Model.Title | @Model.AuthorName</h2>
+
+<div class="thumbnail">
+    <img alt="@Model.Title" src="@Model.Cover" />
+    <div class="caption-full">
+        <h3 class="pull-right">@Model.Year</h3>
+        <h3>
+            <a href="#" asp-controller = "">@Model.Title</a>
+        </h3>
+        <h4>@Model.Type</h4>
+        <h4>@Model.IsRent</h4>
+        <h4>@Model.RentDate</h4>
+        <h4>@Model.RentName</h4>
+    </div>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <a asp-action="Update" asp-route-id="@Model.ItemId" class="btn btn-info">Edycja</a>
+        <a asp-action="Index" class="btn btn-info">Powrót</a>
+    </div>
+</div>
+
+
+

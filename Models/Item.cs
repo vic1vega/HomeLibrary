@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace HomeLibrary.Models
 {
@@ -8,9 +9,21 @@ namespace HomeLibrary.Models
         public int ItemId { get; set; }
         public int UserId { get; set; }
         public string Cover { get; set; }
+        
+        [Required]
+        [Display(Name = "Tytuł")]
         public string Title { get; set; }
+        
+        [Required]
+        [Display(Name = "Rok produkcji")]
         public int Year { get; set; }
+        
+        [Required]
+        [Display(Name = "Typ nośnika")]        
         public Types Type { get; set; }
+        
+        [Required]
+        [Display(Name = "Autor")]         
         public string AuthorName { get; set; }
         public int RentDate { get; set; }
         public string RentName { get; set; }
