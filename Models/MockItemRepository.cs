@@ -50,6 +50,18 @@ namespace HomeLibrary.Models
         {
             return items.FindAll(i => i.Type == type);
         }
+
+        public void CreateItem(Item item)
+        {
+            //todo if needed
+            throw new NotImplementedException();
+        }
+
+        public void UpdateItem(Item item)
+        {
+            //todo if needed
+            throw new NotImplementedException();
+        }
     }
 
     public enum Types

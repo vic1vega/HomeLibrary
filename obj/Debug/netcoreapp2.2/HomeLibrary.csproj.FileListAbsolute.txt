@@ -27,3 +27,4 @@
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.g.cshtml.cs
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.g.cshtml.cs
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Item/Index.g.cshtml.cs
