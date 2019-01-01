@@ -35,5 +35,17 @@ namespace HomeLibrary.Models
         {
             return _appDbContext.Items.ToList().FindAll(i => i.Type == type);
         }
+
+        public void CreateItem(Item item)
+        {
+            _appDbContext.Items.Add(item);
+            _appDbContext.SaveChanges();
+        }
+
+        public void UpdateItem(Item item)
+        {
+            _appDbContext.Items.Update(item);
+            _appDbContext.SaveChanges();
+        }
     }
 }

@@ -9,5 +9,8 @@ namespace HomeLibrary.Models
         Item GetItemByTitle(string title);
         Item GetItemByAuthor(string author);
         IEnumerable<Item> GetItemByType(Types type);
+        void CreateItem(Item item);
+        void UpdateItem(Item item);
+        //void DeleteItem(Item item);
     }
 }
