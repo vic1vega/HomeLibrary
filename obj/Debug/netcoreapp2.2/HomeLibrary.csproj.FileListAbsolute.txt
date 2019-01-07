@@ -31,3 +31,4 @@
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.dll
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.pdb
 /home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/HomeLibrary.csproj.CopyComplete
+/home/janek/repos/HomeLibrary/obj/Debug/netcoreapp2.2/Razor/Views/Stats/Index.g.cshtml.cs

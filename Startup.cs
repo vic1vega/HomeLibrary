@@ -44,7 +44,7 @@ namespace HomeLibrary
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default", 
+                    name: "default",
                     template: "{controller=Home}/{Action=Index}/{Id?}");
             });
         }

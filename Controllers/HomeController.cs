@@ -39,7 +39,6 @@ namespace HomeLibrary.Controllers
             {
                 return View(item);
             }
-
         }
     }
 }

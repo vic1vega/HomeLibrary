@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace HomeLibrary.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class ItemController : Controller
     {
         private readonly IItemRepository _itemRepository;

@@ -26,6 +26,8 @@ namespace HomeLibrary.Models
         [Display(Name = "Autor")]         
         public string AuthorName { get; set; }
         public int RentDate { get; set; }
+
+        [Display(Name = "Wypożyczający")]
         public string RentName { get; set; }
         public bool IsRent { get; set; }
     }

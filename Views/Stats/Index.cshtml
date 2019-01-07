@@ -1,0 +1,36 @@
+﻿@model StatsVM
+
+<h2>Wszystkie: @Model.AllItem</h2>
+<h2>DVD: @Model.DvdItem</h2> <h2>CD: @Model.CdItem</h2> <h2>Książki: @Model.BookItem</h2>
+<h2>Dostępne: @Model.AvailableItem</h2> <h2>Niedostępne: @Model.NonAvailableItem</h2>
+
+@foreach (var item in @Model.ListNonAvailableItem)
+{
+   <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@item.ItemId"><img src="@item.Cover" class="img-fluid img-thumbnail"></a>
+            <div class="caption">
+                <h3 class="pull-right">@item.Title</h3>
+                <h3>
+                    @item.AuthorName - @item.Year
+                </h3>
+                <h4>
+                    Typ nośnika: @item.Type
+                </h4>
+                <h4>
+                    Czy na stanie?: @item.IsRent
+                </h4>
+                <h4>
+                    Data wypożyczenia: @item.RentDate
+                </h4>
+                <h4>
+                    Nazwisko wypożyczającego: @item.RentName
+                </h4>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+

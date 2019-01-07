@@ -37,7 +37,7 @@ namespace HomeLibrary.Controllers
 
             if (user != null)
             {
-                var result = await _signInManager.PasswordSignInAsync(loginVM.UserName, loginVM.Password, true, false);
+                var result = await _signInManager.PasswordSignInAsync(loginVM.UserName, loginVM.Password, false, false);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "Home");

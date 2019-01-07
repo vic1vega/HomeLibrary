@@ -24,16 +24,9 @@ namespace HomeLibrary
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                // try
-                // {
-                    var context = services.GetRequiredService<AppDbContext>();
-                    context.Database.Migrate();
-                    DbInitializer.Seed(context);
-                //}
-                // catch (Exception ex)
-                // {
-                //     // add log to file?
-                // }
+                var context = services.GetRequiredService<AppDbContext>();
+                context.Database.Migrate();
+                DbInitializer.Seed(context);
             }
 
             host.Run();
